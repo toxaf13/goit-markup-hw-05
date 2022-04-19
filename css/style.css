@@ -39,7 +39,7 @@ section{
    font-family: 'Raleway', sans-serif;
    font-size: 26px;
    font-weight: 700;
-   line-height: 31px;
+   line-height: 30px;
    letter-spacing: 0.03em;
 }
 .nav{
@@ -86,6 +86,16 @@ section{
 }
 .icon_contacts{
    margin-right: 10px;
+}
+.current a::after{
+   position: relative;
+   top: 31px;
+   display: block;
+   content: "";
+   width: 100%;
+   height: 4px;
+   border-radius: 2px;
+   background-color: #2196F3;
 }
 /*start section one*/
 .main_one{
